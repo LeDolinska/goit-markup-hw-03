@@ -27,6 +27,7 @@ img {
 main {
 flex-grow: 1;
 }
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -36,13 +37,14 @@ flex-grow: 1;
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
+
 .header-cont {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px;
 }
 
 .logo {
@@ -186,6 +188,10 @@ flex-grow: 1;
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    
+}
+
+.adv-card {
     flex-basis: calc((100% - 72px) / 4);
 }
 
